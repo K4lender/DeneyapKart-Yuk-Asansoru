@@ -55,9 +55,6 @@ void loop() {
     MotorSurucu.MotorDrive(MOTOR1, 0, 1);
     counter = 0;
   }
-  /*else{
-    MotorSurucu.MotorDrive(MOTOR1, 0, 1);
-  }*/
 
   if(MotorSurucu.CheckMotorError()==1) Serial.println("HATA !!! Lütfen motorları kontrol edin");
 }
